@@ -1,0 +1,24 @@
+{
+  "name": "wdio-stable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.5.0",
+    "chai": "^3.5.0",
+    "chai-webdriverio": "^0.2.0",
+    "wdio-allure-reporter": "^0.6.3",
+    "webdriverio": "^4.6.2"
+  },
+  "devDependencies": {
+    "wdio-dot-reporter": "0.0.8",
+    "wdio-mocha-framework": "^0.5.9",
+    "wdio-selenium-standalone-service": "0.0.8"
+  }
+}
